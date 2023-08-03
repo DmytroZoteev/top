@@ -1,0 +1,141 @@
+.header {
+    height: 850px;
+    object-fit: cover;
+    background-image: var(--background-header-image);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 650px) {
+    .header__inner {
+      gap: 100px;
+    }
+  }
+  
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px 50px 20px;
+    gap: 60px;
+  }
+  
+  .header__nav-logo {
+    width: 205px;
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  .header__box-navlist-soclink {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (min-width: 950px) {
+    .header {
+      height: 1050px;
+    }
+  
+    .header__box-navlist-soclink {
+      justify-content: space-between;
+      padding-right: 15px;
+      width: 60%;
+    }
+  
+    .header__inner {
+      gap: 150px;
+    }
+  }
+  
+  .header__social-links-icon {
+    width: 40px;
+  }
+  
+  .header__social-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .header__nav-list-contanier {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header__nav-item {
+    text-decoration: none;
+    color: var(--color-light-text);
+  }
+  
+  .header__nav-logo-icon {
+    width: 185px;
+  }
+  
+  .header__nav {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header__title-contanier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header__title {
+    text-align: center;
+    color: var(--color-light-text);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+  }
+  
+  .header__subtitle-contanier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header__subtitle-part1 {
+    color: var(--color-light-text);
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 30px;
+  }
+  
+  .header__subtitle-part2 {
+    display: none;
+  }
+  
+  .header__cta-link {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    color: var(--color-light-text);
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    border-radius: 35px;
+    gap: 5px;
+  }
+  
+  .header__cta-link:hover {
+    background-color: var(--background-color-dark);
+  }
+  
+  .header__cta-link-part2 {
+    display: none;
+  }

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    --color-light-text: #fff;
+    --color-primary-text: #252B42;
+    --color-second-text: #374754;
+    --background-color-light: #fff;
+    --background-color-dark: #252B42;
+    --button-background-color: #2091F9;
+    --background-header-image: url('../img/header-backgraund.png');
+    --border-form-color: #ddd;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: var(--color-primary-text);
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--color-primary-text);
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: var(--color-primary-text);
+    font-style: normal;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.75rem;
+    color: var(--color-second-text);
+    font-style: normal;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.125rem;
+    color: var(--color-second-text);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    width: auto;
+    max-width: 1200px;
+}
